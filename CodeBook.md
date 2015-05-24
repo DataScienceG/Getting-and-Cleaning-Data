@@ -1,0 +1,7 @@
+- Xtrain,Ytrain,Subtrain are the variables to content results from train folder
+- Xtest,Ytest,Subtest are the variables to content results from test folder
+- XCombine, YCombine, SubCombine are the combine x, y, subject from test and train folders using rbind() function
+- Features is the variable content features.txt data
+- Activity is the variable content activity_labels.txt data
+- Combine contents clean data from XCombine, YCombine and SubCombine after adding names 
+- Avg is the varible content the Avg of each variable in step #5. The result are written to AvgData.txt for #5 requirement
